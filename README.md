@@ -5,7 +5,7 @@ The commands for this look something like:
 
 ```
 git remote add upstream https://github.com/wandb/openui.git
-git pull upstream master
+git pull upstream main
 git push origin
 ```
 

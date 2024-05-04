@@ -1,3 +1,14 @@
+# Keep it synced
+You should add the original project as a remote to your working copy. 
+Then you can pull changes from the original repository and push them to your forked repository. 
+The commands for this look something like:
+
+```
+git remote add upstream <original repo url>
+git pull upstream master
+git push origin
+```
+
 # OpenUI
 
 Building UI components can be a slog.  OpenUI aims to make the process fun, fast, and flexible.  It's also a tool we're using at [W&B](https://wandb.com) to test and prototype our next generation tooling for building powerful applications on top of LLM's.

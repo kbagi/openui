@@ -4,7 +4,7 @@ Then you can pull changes from the original repository and push them to your for
 The commands for this look something like:
 
 ```
-git remote add upstream <original repo url>
+git remote add upstream https://github.com/wandb/openui.git
 git pull upstream master
 git push origin
 ```
